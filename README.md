@@ -313,4 +313,3 @@ Pre-populate the database with:
 | Payment tracking table | `payment_status` field | Simpler, same info |
 
 **Remember: In a hackathon, a working simple app beats a broken ambitious app every time.**
-# farmer-sih2026
