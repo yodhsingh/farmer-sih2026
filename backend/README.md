@@ -23,7 +23,8 @@ backend/
 │   ├── database.py          # DB connection & session management
 │   ├── models.py            # 3 ORM tables: Farmer, Center, Booking
 │   ├── schemas.py           # Pydantic request/response models
-│   ├── queue_service.py     # Queue position & wait-time logic
+│   └── services/
+│       ├── queue_service.py     # Queue position & wait-time logic
 │   └── routers/
 │       ├── __init__.py
 │       ├── farmers.py       # Farmer registration & profiles
