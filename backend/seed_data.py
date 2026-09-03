@@ -1,8 +1,9 @@
-from app.database import SessionLocal
+from app.database import SessionLocal, engine, Base
 from app.models import Farmer, Center, Booking, BookingStatus, PaymentStatus
 from datetime import datetime
 
 def seed_database():
+    Base.metadata.create_all(bind=engine)
     db = SessionLocal()
 
     # Clear existing data

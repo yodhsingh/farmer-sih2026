@@ -12,7 +12,7 @@ from typing import List
 from app.database import get_db
 from app.models import Farmer, Center, Booking, BookingStatus, PaymentStatus
 from app.schemas import BookingCreate, BookingResponse, StatusUpdate, BookingWithDetails
-from app.queue_service import (
+from app.services.queue_services import (
     get_queue_position,
     get_estimated_wait_minutes,
     get_center_queue_list,
