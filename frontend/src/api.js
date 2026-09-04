@@ -13,7 +13,7 @@ import axios from "axios";
 
 // 1. Create a configured Axios instance
 const api = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+  baseURL: "https://farmer-sih2026.onrender.com/",
   timeout: 10000, // 10 second timeout
   headers: {
     "Content-Type": "application/json",
