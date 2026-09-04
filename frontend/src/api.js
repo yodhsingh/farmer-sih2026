@@ -13,7 +13,7 @@ import axios from "axios";
 
 // 1. Create a configured Axios instance
 const api = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+  baseURL: "https://farmer-sih2026.onrender.com/",
   timeout: 10000, // 10 second timeout
   headers: {
     "Content-Type": "application/json",
@@ -30,7 +30,7 @@ export const getErrorMessage = (error) => {
     return error.response.data?.detail || `Server error: ${error.response.status}`;
   } else if (error.request) {
     // Request was made but no response (backend might not be running)
-    return "Cannot connect to backend server. Make sure FastAPI is running on http://127.0.0.1:8000";
+    return "Cannot connect to backend server. Make sure FastAPI is running on https://farmer-sih2026.onrender.com/";
   } else {
     // Something else went wrong
     return error.message || "An unexpected error occurred";
