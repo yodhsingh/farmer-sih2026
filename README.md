@@ -1,6 +1,5 @@
 # Annadata Setu 
-
-[Deployed Link](https://farmer-sih2026.vercel.app)
+## 📌[👀Deployed Link](https://farmer-sih2026.vercel.app)
 
 Smart procurement scheduling and queue management for farmers.
 
